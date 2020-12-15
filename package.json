@@ -2,12 +2,14 @@
   "name": "goit-react-hw-08-phonebook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://igormazur78.github.io/goit-react-hw-08-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "axios": "^0.21.0",
+    "gh-pages": "^3.1.0",
     "jsrsasign": "^10.1.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -23,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
