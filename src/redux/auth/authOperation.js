@@ -1,6 +1,7 @@
 import axios from "axios";
 import authAction from "./authAction";
 
+
 axios.defaults.baseURL = "https://goit-phonebook-api.herokuapp.com";
 
 const token = {
@@ -9,6 +10,7 @@ const token = {
   },
   unset() {
     axios.defaults.headers.common.Authorization = "";
+    
   },
 };
 
@@ -29,7 +31,7 @@ const logIn = (credentials) => (dispatch) => {
   axios
     .post("/users/login", credentials)
     .then((response) => {
-      console.log("LogIn:", response);
+      console.log("LogIn:", response.data.token);
       token.set(response.data.token);
       dispatch(authAction.logInSuccess(response.data));
     })
@@ -65,7 +67,7 @@ axios
 .catch(error => dispatch(authAction.getCurrentUserError(error.payload)))
 }
 
-// eslint-disable-next-line import/no-anonymous-default-export
+
 export default {
   register,
   logIn,

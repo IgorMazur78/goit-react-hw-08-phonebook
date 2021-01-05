@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import authOperation from "../redux/auth/authOperation";
+import {TextField, Button,Typography } from "@material-ui/core";
+import style from "../Style/login.module.css"
 
 class LogIn extends Component {
   state = {
@@ -29,29 +31,33 @@ class LogIn extends Component {
 
   render() {
     return (
-      <form onSubmit={this.logInSubmit}>
-        <h1>Log in to the user</h1>
-        <h2>E-mail</h2>
-        <input
+      <form onSubmit={this.logInSubmit} className={style.formLogIn}>
+        <Typography variant="h4">Log in ...</Typography>
+        <Typography variant="h6">E-mail</Typography>
+        
+        <TextField
+        id="filled-basic" label="user email" variant="filled"
           type="email"
           value={this.state.email}
           onChange={this.handelEmailLogIn}
           placeholder="to enter e-mail"
         />
-        <h2>Password</h2>
-        <input
+        <Typography variant="h6">Password</Typography>
+        <TextField
+        id="filled-basic" label="password" variant="filled"
           type="password"
           value={this.state.password}
           onChange={this.handelpasswordLogIn}
-          placeholder="to enter password"
+          
         />
-        <br />
-        <button type="submit">To Enter</button>
+        <br/>        
+        <Button color = "secondary" variant="contained" type="submit">Log in</Button>
       </form>
     );
   }
 }
-// const mapDispatchToProps = () => ({
-//   onLogIn: authOperation.logIn,
-// });
-export default connect(null,{onLogIn: authOperation.logIn})(LogIn);
+const mapDispatchToProps = ({
+  onLogIn: authOperation.logIn,
+
+});
+export default connect(null,mapDispatchToProps)(LogIn);

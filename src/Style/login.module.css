@@ -1,0 +1,6 @@
+.formLogIn {
+    margin-top: 60px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}

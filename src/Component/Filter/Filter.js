@@ -4,12 +4,13 @@ import contactAction from "../../redux/contacts/contactAction"
 import contactSelector from "../../redux/contacts/contactSelector"
 
 import style from "./Filter.module.css"
+import { Typography} from "@material-ui/core";
 
  function Filter({value, onChange}) {
    
   return (
     <form className = {style.filter}>
-      <h2 className = {style.filterTitle}>Find contacts by name</h2>
+      <Typography variant="h6" className = {style.filterTitle}>Find contacts by name</Typography>
       <input
       className = {style.filterInput
       }

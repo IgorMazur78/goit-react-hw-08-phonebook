@@ -1,18 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import style from "../Style/navigation.module.css";
+import { Box, Toolbar, Button } from "@material-ui/core";
+// import style from "../Style/navigation.module.css";
 
 const HomeNavigation = () => {
   return (
-    <ul className={style.listNavigation}>
-     
-      <li className={style.itemNavigation}>
-        <NavLink to="/register">Registers</NavLink>
-      </li>
-      <li className={style.itemNavigation}>
-        <NavLink to="/login">Log in</NavLink>{" "}
-      </li>
-    </ul>
+    <div>
+      <Toolbar>
+        <Box mr={2}>
+          <Button color="secondary" variant="contained">
+            <NavLink to="/register">Registers</NavLink>
+          </Button>
+        </Box>
+
+        <Button color="secondary" variant="contained">
+          <NavLink to="/login">Log in</NavLink>
+        </Button>
+      </Toolbar>
+    </div>
   );
 };
 

@@ -5,7 +5,9 @@ import operationContact from "../../redux/contacts/operationContacts";
 import contactSelector from "../../redux/contacts/contactSelector"
 
 import style from "./Listcontact.module.css";
+import {Typography} from "@material-ui/core";
 import "./ListContactAnimation.css";
+
 
 function ListContact({ contact, onDeleteContact }) {
   return (
@@ -13,8 +15,9 @@ function ListContact({ contact, onDeleteContact }) {
       
       {contact.map(({ id, name, number }) => (
         <li key={id} className={style.ListContactItem}>
-          <span>{name}:</span>
-          <span>{number}</span>
+          <Typography >{name}:</Typography>
+          <Typography >{number}</Typography>
+         
 
           <button
             className={style.buttonDeleteContact}
@@ -27,7 +30,7 @@ function ListContact({ contact, onDeleteContact }) {
 }
 
 const mapStateToProps = (state) => ({
-  contact: contactSelector.getVisibleContact(state)
+  contact:contactSelector.getVisibleContact(state)
 
 })
 const mapDispatchToProps = {

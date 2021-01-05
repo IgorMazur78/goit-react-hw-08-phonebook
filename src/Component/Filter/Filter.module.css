@@ -8,6 +8,7 @@
     background-color: rgb(241, 172, 149);
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     
 }

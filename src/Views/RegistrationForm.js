@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 
 import authOperation from "../redux/auth/authOperation";
+import style from "../Style/registration.module.css";
+import {TextField, Button,Typography } from "@material-ui/core"
 
 class registrationForm extends Component {
   state = {
@@ -40,26 +42,29 @@ class registrationForm extends Component {
     const { name, email, password } = this.state;
 
     return (
-      <form onSubmit={this.RegisterSubmit}>
-        <h1>Form registration</h1>
-        <h2>Name</h2>
-        <input
+      <form onSubmit={this.RegisterSubmit} className={style.registration}>
+        <Typography variant="h4" >Form registration</Typography>
+        <Typography variant="h6">Name</Typography>
+        <TextField
+        id="filled-basic" label="user name" variant="filled"
           type="text"
           name="user"
           value={name}
           onChange={this.handelRegistrationName}
           placeholder="user name"
         />
-        <h2>E-mail</h2>
-        <input
+        <Typography variant="h6">E-mail</Typography>
+        <TextField
+        id="filled-basic" label="email" variant="filled"
           type="email"
           value={email}
           name="user"
           onChange={this.handelRegistrationEmail}
           placeholder="user email"
         />
-        <h2>Password</h2>
-        <input
+        <Typography variant="h6">Password</Typography>
+        <TextField
+        id="filled-basic" label="password" variant="filled"
           type="password"
           value={password}
           name="user"
@@ -67,9 +72,9 @@ class registrationForm extends Component {
           placeholder="user password"
         />
         <br />
-        <button type="submit" className="">
+        <Button color = "secondary" variant="contained" type="submit" className="">
           To Register
-        </button>
+        </Button>
       </form>
     );
   }

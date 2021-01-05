@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import operationContacts from "../../redux/contacts/operationContacts";
+import { Button, Typography} from "@material-ui/core";
 import style from "./Form.module.css";
 
 class Form extends Component {
@@ -26,10 +27,10 @@ class Form extends Component {
 
     return (
       <div className={style.formStyle}>
-        <h2 className={style.formStyleTitle}>Phonebook</h2>
+        <Typography variant="h6" className={style.formStyleTitle}>Phonebook</Typography>
         <form className={style.formStyleFormInput} onSubmit={this.handelSubmit}>
           <label>
-            Name
+           <Typography variant="h8">Name</Typography>
             <br />
             <input
               type="text"
@@ -42,7 +43,7 @@ class Form extends Component {
             <br />
           </label>
           <label>
-            Number
+          <Typography variant="h8">Number</Typography>
             <br />
             <input
               type="text"
@@ -54,14 +55,15 @@ class Form extends Component {
             ></input>
           </label>
           <br />
-          <button className={style.formStyleFormButton} type="submit">
+          <Button  color = "secondary" variant="contained" type="submit" >
             Add contact
-          </button>
+          </Button>
         </form>
       </div>
     );
   }
 }
+
 const mapDispatchToProps = (dispatch) => {
   return {
     onhandleAddContact: (name, number) =>
