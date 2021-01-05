@@ -1,20 +1,38 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.0e9ea947.chunk.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.6d78d1a1.chunk.js",
-    "main.js.map": "/goit-react-hw-08-phonebook/static/js/main.6d78d1a1.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-08-phonebook/static/js/runtime-main.eb8ac25e.js",
-    "runtime-main.js.map": "/goit-react-hw-08-phonebook/static/js/runtime-main.eb8ac25e.js.map",
-    "static/js/2.43987f14.chunk.js": "/goit-react-hw-08-phonebook/static/js/2.43987f14.chunk.js",
-    "static/js/2.43987f14.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/2.43987f14.chunk.js.map",
+    "static/js/0.1aa358c5.chunk.js": "/goit-react-hw-08-phonebook/static/js/0.1aa358c5.chunk.js",
+    "static/js/0.1aa358c5.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/0.1aa358c5.chunk.js.map",
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.1b1a1ba6.chunk.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.d46d33a3.chunk.js",
+    "main.js.map": "/goit-react-hw-08-phonebook/static/js/main.d46d33a3.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-08-phonebook/static/js/runtime-main.9926f472.js",
+    "runtime-main.js.map": "/goit-react-hw-08-phonebook/static/js/runtime-main.9926f472.js.map",
+    "static/js/3.ef22df8c.chunk.js": "/goit-react-hw-08-phonebook/static/js/3.ef22df8c.chunk.js",
+    "static/js/3.ef22df8c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/3.ef22df8c.chunk.js.map",
+    "static/css/4.d9f519ea.chunk.css": "/goit-react-hw-08-phonebook/static/css/4.d9f519ea.chunk.css",
+    "static/js/4.02a2c31a.chunk.js": "/goit-react-hw-08-phonebook/static/js/4.02a2c31a.chunk.js",
+    "static/js/4.02a2c31a.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/4.02a2c31a.chunk.js.map",
+    "static/css/5.eb0f2bf5.chunk.css": "/goit-react-hw-08-phonebook/static/css/5.eb0f2bf5.chunk.css",
+    "static/js/5.bc64955e.chunk.js": "/goit-react-hw-08-phonebook/static/js/5.bc64955e.chunk.js",
+    "static/js/5.bc64955e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/5.bc64955e.chunk.js.map",
+    "static/css/6.d6d1cf3b.chunk.css": "/goit-react-hw-08-phonebook/static/css/6.d6d1cf3b.chunk.css",
+    "static/js/6.cc366b57.chunk.js": "/goit-react-hw-08-phonebook/static/js/6.cc366b57.chunk.js",
+    "static/js/6.cc366b57.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/6.cc366b57.chunk.js.map",
+    "static/css/7.0ed82345.chunk.css": "/goit-react-hw-08-phonebook/static/css/7.0ed82345.chunk.css",
+    "static/js/7.543317f4.chunk.js": "/goit-react-hw-08-phonebook/static/js/7.543317f4.chunk.js",
+    "static/js/7.543317f4.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/7.543317f4.chunk.js.map",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "static/css/main.0e9ea947.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/main.0e9ea947.chunk.css.map",
-    "static/js/2.43987f14.chunk.js.LICENSE.txt": "/goit-react-hw-08-phonebook/static/js/2.43987f14.chunk.js.LICENSE.txt"
+    "static/css/4.d9f519ea.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/4.d9f519ea.chunk.css.map",
+    "static/css/5.eb0f2bf5.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/5.eb0f2bf5.chunk.css.map",
+    "static/css/6.d6d1cf3b.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/6.d6d1cf3b.chunk.css.map",
+    "static/css/7.0ed82345.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/7.0ed82345.chunk.css.map",
+    "static/css/main.1b1a1ba6.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/main.1b1a1ba6.chunk.css.map",
+    "static/js/3.ef22df8c.chunk.js.LICENSE.txt": "/goit-react-hw-08-phonebook/static/js/3.ef22df8c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb8ac25e.js",
-    "static/js/2.43987f14.chunk.js",
-    "static/css/main.0e9ea947.chunk.css",
-    "static/js/main.6d78d1a1.chunk.js"
+    "static/js/runtime-main.9926f472.js",
+    "static/js/3.ef22df8c.chunk.js",
+    "static/css/main.1b1a1ba6.chunk.css",
+    "static/js/main.d46d33a3.chunk.js"
   ]
 }

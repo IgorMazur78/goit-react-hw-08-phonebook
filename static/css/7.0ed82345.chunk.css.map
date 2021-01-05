@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Style/registration.module.css"],"names":[],"mappings":"AAAA,kCACI,eAAgB,CAChB,WAAY,CACZ,YAAa,CACb,qBACJ","file":"7.0ed82345.chunk.css","sourcesContent":[".registration {\r\n    margin-top: 60px;\r\n    width: 300px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}"]}

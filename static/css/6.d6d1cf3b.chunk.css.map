@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Style/login.module.css"],"names":[],"mappings":"AAAA,wBACI,eAAgB,CAChB,WAAY,CACZ,YAAa,CACb,qBACJ","file":"6.d6d1cf3b.chunk.css","sourcesContent":[".formLogIn {\r\n    margin-top: 60px;\r\n    width: 300px;\r\n    display: flex;\r\n    flex-direction: column;\r\n}"]}
